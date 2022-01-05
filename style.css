@@ -1,0 +1,46 @@
+:root{
+    --dark:green;
+    --yellow:black;
+    --orange:blue;
+    --light:red;
+
+}
+
+body{
+    color:var(--orange)
+}
+
+main{
+    height: 90vh;
+}
+
+footer , nav{
+    padding: 10px;
+    background-position: center;
+
+}
+
+nav{
+    background-color: var(--yellow);
+    border-bottom: 1px solid var(--dark);
+}
+
+footer{
+    border-top: 1px solid var(--red);
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    /* */
+    /* */
+    /* */
+}
+article{
+    margin: 50px;
+    width:300px;
+    height:200px;
+
+    float:left
+}
